@@ -1,6 +1,6 @@
 import Feedback from "./Feedback";
 
-const Options = ({ updateFeedback, review, resetFeedBacks }) => {
+const Options = ({ updateFeedback, feedback, resetFeedBacks }) => {
   return (
     <div>
       <button onClick={() => updateFeedback('good')}>Good</button>
