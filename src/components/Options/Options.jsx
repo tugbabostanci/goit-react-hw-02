@@ -1,4 +1,4 @@
-import Feedback from "./Feedback";
+import Feedback from "../Feedback/Feedback";
 
 const Options = ({ updateFeedback, feedback, resetFeedBacks }) => {
   return (
